@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: red;
+    text-shadow: 1px 1px 1px red;
+    box-shadow: 1px 1px 1px 1px red inset;
+    border-radius: 10px;
+    border-bottom: 10px red ;
+    border-color: red;
+    border-style: dashed;
+    border-width: 100px;
+    border-radius: 10px;
+    color: red;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    text-decoration: none;
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    white-space: wrpa;
+    white-space: nowrap;
+    letter-spacing: 10px;
+    line-height: 100px;
+    word-spacing: 100px;
+    white-space: pre;
+    white-space: pre-line;
+    white-space: pre-wrap;
+    height: 11px;
+    max-height: 100px;
+    min-width: 110px;
+    min-height: 100px;
+    background-color: red;
+    background: no-repeat cover border-box center;
+    background-image: url(lfgflh;fghfghf);
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(to bottom,green , blue);
+    backdrop-filter: blur(10px);
+    opacity: 1;
+    scale: 1;
+    transition: 3s;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-property: width;
+    translate: 100px 100px ;
+    transform: translate(100px , 100px);
+    transform: rotate(30deg);
+    transform: skew(30deg);
+    transform: scale(-1);
+    margin: 0 30px;
+    padding: 10px;
+    border-radius: 20px;
+    list-style-type: none;
+    visibility: hidden;
+    display: none;
+    background: radial-gradient(at center collapse 30px 30px, green, blue);
+    background: transparent;
+    float: left;
+    clear: left;
+    z-index: 1000;
+    position: fixed;
+    position: relative;
+    position: sticky;
+    position: absolute;
+    font-weight: inherit;
+}
+.feed{
+    color: rgb(145, 73, 73);
+}
+#eed{
+    color: red;
+}
+h1>p{
+    color: red;
+}
+h1 p{
+    color: red;
+}
+[type]{
+    color: red;
+}
+[type='gfhfgh']{
+    color: red;
+}
+p[type]{
+    color: red;
+}
+p[type='fhfgh']{
+    color: red;
+}
+[type ^='gfhfgh']{
+    color: red;
+}
+[type $='fghfgh']{
+    color: red;
+}
+[type ~='dfgfdg']{
+    color: red;
+}
+[type *='fdgdfg']{
+    color: red;
+}
+[type='fghfgh'i]{
+    color: red;
+}
+p:hover{
+    color: red;
+}
+p:enabled{
+    color: red;
+}
+p:disabled{
+    color: red;
+}
+p:visited{
+    color: red;
+}
+p:link{
+    color: red;
+}
+p:focus{
+    color: red;
+}
+p::after{
+    content: 'gjghjghjgh';
+}
+p::first-letter{
+    color: red;
+}
+p::first-line{
+    color: red;
+}
+p::first-letter{
+    color: red;
+}
+p::before{
+    color: red;
+}
+p:active{
+    color:blue;
+    color: #4f0;
+    color: rgb(red, green, blue);
+}
+p{
+    display: flex;
+    justify-content: center;
+    gap: 10;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex:100 100 100 100;
+    flex-basis:100;
+    align-content: center;
+    order: 1;
+    display: grid;
+    grid-template-columns: 100 100 100;
+    grid-column: 1/-1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-area: feed;
+    grid-template-areas: 'feed . .';
+    row-gap: 10;
+    gap: 10 10;
+    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(4,100px);
+    grid-template-columns: repeat(auto-fill,minmax(100px,400));
+
+}
