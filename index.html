@@ -15,31 +15,32 @@
 <body class="bg-body-tertiary">
   <!-- navbar -->
   <nav style="backdrop-filter: blur(10px); background-color: rgba(0, 0, 0, 0.288);" class="navbar position-fixed w-100 flex-column z-1 navbar-expand-lg   px-3">
-    <img width="50" class="rounded-circle position-absolute top-5  " src="https://img.freepik.com/premium-vector/gold-elegant-barbershop-logo-design-template_278810-988.jpg" alt="">
   <div class="container-fluid">
-    <a class="navbar-brand text-primary    fs-1" href="#" style="text-shadow: 1px 1px 1px white;">Saloon EL Negm</a>
+    <a class="navbar-brand text-primary    fs-1"  style="text-shadow: 1px 1px 1px white;">Saloon EL Negm
+       <img width="50" class="rounded-circle position-absolute top-5 start-50 m-auto p-1  " src="https://img.freepik.com/premium-vector/gold-elegant-barbershop-logo-design-template_278810-988.jpg" alt="">
+    </a>
     <button class="navbar-toggler z-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse " id="navbarNav">
       <ul class="navbar-nav  w-100 d-lg-flex flex-lg-row justify-content-lg-end text-primary fs-5" style="text-shadow: 1px 1px 1px blue;">
         <li class="nav-item">
-          <a class="nav-link active text-light " aria-current="page" href="#">Home</a>
+          <a class="nav-link active text-light "  href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Features</a>
+          <a class="nav-link text-light" href="#hair">Haircuts</a>
         </li>
-        <li class="nav-item ">
-          <a class="nav-link text-light" href="#">Pricing</a>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#price" >Price</a>
         </li>
         <div class="dropdown h-100 my-1  ">
   <button class="btn btn-outline-danger h-100 pb-2 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown button
+    Offers
   </button>
   <ul class="dropdown-menu bg-black ">
     <li><a class="dropdown-item text-primary " href="#">Home</a></li>
-    <li><a class="dropdown-item text-primary" href="#">cuter machine</a></li>
-    <li><a class="dropdown-item text-primary" href="#">the lastest haircut</a></li>
+    <li><a class="dropdown-item text-primary" href="#price">price</a></li>
+    <li><a class="dropdown-item text-primary" href="#hair">haircuts</a></li>
   </ul>
 </div>
     
@@ -48,13 +49,13 @@
   </div>
 </nav>
 <!--carousel-->
-<div id="carouselExampleIndicators" class="carousel slideh   w-75 p-5 m-auto  " data-bs-ride="carousel" data-bs-interval="3000" >
-  <div class="carousel-indicators z-0">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<div id="carouselExampleIndicators" class="carousel slideh   w-100  m-auto  " data-bs-ride="carousel" data-bs-interval="3000" style="transform: translateY(-150px);" >
+  <div class="carousel-indicators  z-0">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-secondary" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-secondary " aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
+  <div class="carousel-inner " style="scale: 0.7;">
     <div class="carousel-item active">
       <img src="https://m.media-amazon.com/images/I/81Hnw45-71L._UF1000,1000_QL80_.jpg" class="d-block w-100" alt="...">
     </div>
@@ -65,36 +66,36 @@
       <img src="https://m.media-amazon.com/images/I/616VvI+0MsL.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <button class="carousel-control-prev w-50" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-primary position-absolute start-0" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <button  class="carousel-control-next w-50" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="position-absolute end-0 carousel-control-next-icon bg-primary position-absolute end-0" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<main class="text-center">
+<main  id="price" class="text-center">
   <h2 style="text-shadow: 1px 1px 1px rgba(0, 174, 255, 0.705);">why do you choose Sallon El Negm ?</h2>
   <p>DalBarber حلاق متخصص و احد اكبر الموزعين المعتمدين لكبرى العلامات التجارية في مجال مكائن الحلاقة و منتجات العناية بالشعر في المملكة العربية السعودية.</p>
 </main>
-<article class="row m-auto" style="width: fit-content;">
-  <div class="card" style="width: 18rem;">
-  <img src="https://okaziooun.com/shop/wp-content/uploads/2022/01/77e28b06b09bf4df7107019e062bd43f.jpg" class="card-img-top" alt="...">
-  <div class="card-body d-flex flex-column justify-content-end">
+<article  class="row m-auto" style="width: fit-content; " >
+  <div class="card  m-auto p-0" style="width: 18rem;">
+  <img height="380" src="https://okaziooun.com/shop/wp-content/uploads/2022/01/77e28b06b09bf4df7107019e062bd43f.jpg" class="card-img-top" alt="...">
+  <div class="card-body d-flex flex-column h-100 justify-content-between">
     <p class="card-text">واحد من افضل المنك في السوق كما انها بسعر اقتصادي يناسب الجميع</p>
-    <h3>price : 200ج</h3>
+    <h3 class="mt-5">price : 200ج</h3>
   </div>
 </div>
 
-<div class="card" style="width: 18rem;">
+<div class="card m-auto" style="width: 18rem;">
   <img src="https://f.nooncdn.com/p/pnsku/N70031154V/45/_/1703048674/27874e02-dda0-42f3-86f4-00d63595f78e.jpg?width=480" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">هذا المكن يعد من احسن الانواع لانه يشيل الذقن بنفص درجة الموس كما انه امن لي البشلرة الحساسة ولاتنسي ايضا انه من شركة vgr الغنية عن التعريف</p>
     <h3>price : 300ج</h3>
   </div>
 </div>
-<div class="card" style="width: 18rem;">
+<div class="card m-auto" style="width: 18rem;">
   <img src="https://m.media-amazon.com/images/I/51pAH0cLwPL._AC_.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">اذا كنت تبحث عن مكن حلاقة مدة شحن عمر فهذه تلبي جميع المطلبات كما انها تداوي درجة الزيرو التي تعد من اصعب التدريجات  يمكنك فعلها بهذه المكنة فماذا تنطظر اطلبها الان عرض خاص</p>
@@ -104,7 +105,7 @@
     </div>
   </div>
 </div>
-<div class="card" style="width: 18rem;">
+<div class="card m-auto" style="width: 18rem;">
   <img src="https://f.nooncdn.com/p/v1615219899/N45016388A_3.jpg?width=800" class="card-img-top" alt="...">
   <div class="card-body ">
     <p class="card-text">اتبحث عن مكنة تلبي احتيجاتك الشخصية كما انها مكينة عملية سهلة الاستخدام سهلة الشحن</p>
@@ -113,27 +114,27 @@
 </div>
 </article>
 <aside class="text-center m-auto p-2" style="width: fit-content;">
-  <h2 class="p-5">احدث القصات العلامية</h2>
+  <h2 id="hair" class="p-5">احدث القصات العلامية</h2>
   <div class="row">
-    <div class="card" style="width: 18rem;">
+    <div class="card m-auto" style="width: 18rem;">
   <img src="https://www.cairo24.com/Upload/libfiles/109/7/308.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
+  <div class="card-body m-auto">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
   </div>
 </div>
-<div class="card" style="width: 18rem;">
+<div class="card m-auto" style="width: 18rem;">
   <img src="https://i.pinimg.com/736x/1b/c4/55/1bc455a71c4e02c4b86398d7007577bf.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
   </div>
 </div>
-<div class="card" style="width: 18rem;">
+<div class="card m-auto" style="width: 18rem;">
   <img src="https://www.cairo24.com/Upload/libfiles/149/3/481.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
   </div>
 </div>
-<div class="card" style="width: 18rem;">
+<div class="card m-auto" style="width: 18rem;">
   <img src="https://i.pinimg.com/736x/08/82/a7/0882a7a1dfe9be60d9ff07e9437c7ced.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
@@ -143,7 +144,7 @@
 </aside>
 <!-- footer -->
  <!-- Footer -->
-<footer class="bg-black text-light text-center">
+<footer class="bg-black text-light p-5 text-center">
   <!-- Grid container -->
   <div class="container p-4">
     <!-- Section: Social media -->
@@ -220,79 +221,24 @@
     <!-- Section: Text -->
     <section class="mb-4">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum
-        harum corrupti dicta, aliquam sequi voluptate quas.
+        احترف الحلاقة مع بكل سهولة سوف تتعلم كل شي عن الحلاقة من حلاقة الذقن الي قس الشعر الي التدريجة وكل مايخطئ فيه المبتدئين مثل تدريج حرف الزيرو سوف تتعلمه بكل سولة معنا معنا لن تحس بسعوبة التعلم شعرنا النجم النجم بيتحدي الزيرو
       </p>
     </section>
     <!-- Section: Text -->
 
     <!-- Section: Links -->
-    <section class="">
-      <!--Grid row-->
-      <div class="row m-auto">
-        <!--Grid column-->
-        <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a class="text-body" href="#!">whatsup</a>
-            </li>
-            <li>
-              <a class="text-body" href="#!">Email</a>
-            </li>
-            <li>
-              <a class="text-body" href="#!">Contact</a>
-            </li>
-            <li>
-              <a class="text-body" href="#!">Number</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-6 col-md-6 mb-4 mb-md-0"id='feed' >
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a class="text-body" href="#!">About me</a>
-            </li>
-            <li>
-              <a class="text-body" href="#!">Ask me</a>
-            </li>
-            <li>
-              <a class="text-body" href="#!">Link 3</a>
-            </li>
-            <li>
-              <a class="text-body" href="#!">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
    
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <!--Grid column-->
-      </div>
-      <!--Grid row-->
-    </section>
     <!-- Section: Links -->
   </div>
   <!-- Grid container -->
 
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2026 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">hishamneagm@gmail.com</a>
+    © 2026 Copyright : this website is valid until 2030
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
   </div>
   <!-- Copyright -->
 </footer>
-<!-- Footer -->
+<img id="peed" width="80" class="position-fixed" src="./images.png" style="right: 0 ; bottom: 10px;">
 </body>
 </html>
