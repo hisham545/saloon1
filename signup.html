@@ -33,21 +33,20 @@
     let button=document.getElementById('button');
     let email=document.getElementById('exampleInputEmail1')
     let password=document.getElementById('exampleInputPassword1')
-    onload=function(){
-      if(localStorage.name!=''){
-        location.href='file:///C:/ge/index.html'
-      }
-    }
     button.onclick=function(){
     if(localStorage.name1=='' && localStorage.name==''){
         localStorage.setItem('name',email.value)
       localStorage.setItem('name1',password.value)
-      location.href='file:///C:/ge/index.html'
+      location.href='https://hisham545.github.io/reeg/'
     }
     else{
-      location.href='file:///C:/ge/index.html'
+      email.value=localStorage.getItem(name)
+      password.value=localStorage.getItem(name1)
+      button.innerHTML='Login'
+      location.href='https://hisham545.github.io/reeg/'
     }
     }
+    console.log(button.value)
   </script>
 </form>
 </body>
