@@ -1,0 +1,13 @@
+#body{
+    background-image: url(https://getwallpapers.com/wallpaper/full/9/9/0/722477-best-barber-wallpapers-1920x1080-samsung-galaxy.jpg);
+}
+#form{
+    position: relative;
+    color: black;
+    text-shadow: 1px 2px 1px white;
+    backdrop-filter: blur(5px);
+}
+#img{
+    translate: 80px -10px;
+    transform: scale(4);
+}
