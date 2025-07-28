@@ -11,3 +11,13 @@
     translate: 80px -10px;
     transform: scale(4);
 }
+.img{
+    width: 30px;
+    bottom: 10px;
+    position: absolute;
+    right: 10px;
+}
+.img:hover{
+    cursor: pointer;
+}
+

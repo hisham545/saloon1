@@ -1,0 +1,7 @@
+#peed{
+    transition: 1s;
+}
+#peed:hover{
+ cursor: pointer;
+ scale: 1.1;
+}
